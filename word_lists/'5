@@ -1,603 +1,603 @@
-eon's
-act's
-age's
-bar's
-bit's
-box's
-bug's
-day's
-doe's
-end's
-eye's
-fit's
-fly's
-fry's
-get's
-hit's
-job's
-key's
-law's
-leg's
-let's
-lie's
-log's
-lot's
-man's
-one's
-put's
-run's
-see's
-set's
-tie's
-try's
-use's
-way's
-won's
-aid's
-aim's
-arm's
-art's
-ash's
-bag's
-bed's
-bet's
-bob's
-boy's
-bus's
-buy's
-can's
-cap's
-car's
-cat's
-cow's
-cry's
-cup's
-cut's
-die's
-dog's
-don's
-dot's
-ear's
-egg's
-ego's
-fan's
-fee's
-fix's
-gap's
-god's
-gun's
-gut's
-guy's
-hat's
-jam's
-kid's
-kit's
-lab's
-lip's
-map's
-mug's
-net's
-nun's
-nut's
-pen's
-pig's
-pin's
-pop's
-pun's
-rat's
-row's
-sex's
-sin's
-son's
-spy's
-sum's
-tab's
-tax's
-ten's
-tin's
-tip's
-toe's
-ton's
-top's
-toy's
-van's
-war's
-win's
-CIA's
-CPA's
-DNA's
-FBI's
-GNP's
-GOP's
-IOU's
-IRS's
-LSD's
-SOS's
-TNT's
-UFO's
-VCR's
-VIP's
-ace's
-ado's
-air's
-ale's
-all's
-amp's
-ant's
-ape's
-arc's
-are's
-ark's
-ass's
-awe's
-aye's
-bad's
-ban's
-bat's
-bay's
-bee's
-bib's
-bid's
-bin's
-boa's
-bog's
-boo's
-bow's
-bra's
-bud's
-bum's
-bun's
-bye's
-cab's
-caw's
-cob's
-cod's
-cog's
-con's
-coo's
-cop's
-cot's
-cub's
-cue's
-dab's
-dad's
-dam's
-den's
-dew's
-dig's
-din's
-dip's
-dry's
-dub's
-dud's
-due's
-dye's
-ebb's
-eel's
-elf's
-elk's
-elm's
-era's
-eve's
-ewe's
-fad's
-fat's
-fed's
-fen's
-few's
-fez's
-fib's
-fig's
-fin's
-fir's
-flu's
-foe's
-fog's
-fox's
-fun's
-fur's
-gab's
-gag's
-gal's
-gas's
-gay's
-gem's
-gig's
-gin's
-gnu's
-gob's
-goo's
-gum's
-gym's
-hag's
-ham's
-hay's
-hem's
-hen's
-her's
-him's
-hip's
-hoe's
-hog's
-hop's
-how's
-hub's
-hue's
-hug's
-hum's
-hut's
-ice's
-ill's
-imp's
-ink's
-inn's
-ion's
-ire's
-ivy's
-jab's
-jar's
-jaw's
-jay's
-jet's
-jig's
-jog's
-jot's
-joy's
-jug's
-jut's
-keg's
-kin's
-lad's
-lag's
-lap's
-lay's
-lid's
-lob's
-low's
-lug's
-lye's
-mad's
-mat's
-may's
-mew's
-mix's
-mob's
-mom's
-moo's
-mop's
-mow's
-mud's
-mum's
-nag's
-nap's
-nay's
-new's
-nil's
-nip's
-nit's
-nod's
-now's
-oaf's
-oak's
-oar's
-ode's
-ohm's
-oil's
-old's
-ore's
-out's
-owl's
-pad's
-pal's
-pan's
-par's
-pat's
-paw's
-pay's
-pea's
-peg's
-pep's
-pet's
-pew's
-pie's
-pit's
-ply's
-pod's
-pot's
-pro's
-pry's
-pup's
-pus's
-rag's
-ram's
-rap's
-raw's
-ray's
-red's
-rev's
-rib's
-rig's
-rim's
-rip's
-rod's
-roe's
-rot's
-rub's
-rue's
-rug's
-rum's
-rut's
-rye's
-sac's
-sag's
-sap's
-saw's
-say's
-sea's
-she's
-shy's
-sip's
-sir's
-six's
-ski's
-sky's
-sob's
-sod's
-sop's
-sow's
-spa's
-sub's
-sun's
-tag's
-tan's
-tap's
-tar's
-tea's
-tee's
-tit's
-tot's
-tow's
-tub's
-tug's
-two's
-urn's
-vat's
-vet's
-vow's
-wad's
-wag's
-wax's
-web's
-wee's
-wet's
-why's
-wig's
-wit's
-woe's
-wok's
-wow's
-yak's
-yam's
-yap's
-yen's
-yes's
-yew's
-you's
-zip's
-zoo's
-ATM's
-CEO's
-ESP's
-HIV's
-HMO's
-IRA's
-PMS's
-POW's
-RAM's
-ROM's
-TLC's
-USA's
-WWW's
-baa's
-bop's
-dis's
-duo's
-fag's
-fax's
-gel's
-gyp's
-lib's
-max's
-oat's
-pee's
-pub's
-ref's
-rep's
-sax's
-sec's
-tad's
-tic's
-tog's
-tux's
-who's
-yep's
-zap's
-zit's
-ABM's
-ASL's
-ATP's
-AZT's
-BLT's
-CFC's
-CPI's
-CPR's
-CPU's
-CRT's
-CST's
-DAT's
-DDS's
-DOS's
-ECG's
-EEC's
-EEG's
-EKG's
-EPA's
-EST's
-FHA's
-GHQ's
-GMT's
-HUD's
-IMF's
-KKK's
-LCD's
-LED's
-LPN's
-MBA's
-MRI's
-MSG's
-MST's
-MVP's
-OAS's
-PAC's
-PBS's
-PST's
-PVC's
-RAF's
-REM's
-RNA's
-SAM's
-SOP's
-TKO's
-UHF's
-VAT's
-VHF's
-VLF's
-WHO's
-alb's
-asp's
-auk's
-awl's
-bur's
-cad's
-cam's
-cud's
-cur's
-deb's
-doc's
-dun's
-ell's
-emu's
-erg's
-fob's
-fop's
-haw's
-hex's
-hob's
-hod's
-ilk's
-ism's
-jag's
-jib's
-ken's
-lam's
-lea's
-lee's
-lei's
-lox's
-maw's
-mil's
-mod's
-nib's
-nix's
-nub's
-orb's
-pap's
-pip's
-poi's
-pol's
-pox's
-pug's
-pyx's
-sis's
-sol's
-sot's
-soy's
-sty's
-sup's
-tam's
-tom's
-tor's
-tun's
-ump's
-vim's
-wen's
-yaw's
-yea's
-yip's
-yuk's
-yup's
-zed's
-bod's
-bro's
-bub's
-kip's
-mac's
-mag's
-pic's
-tut's
-ADP's
-CAD's
-CBC's
-CNS's
-DMD's
-EDP's
-ELF's
-ENE's
-ESE's
-GDP's
-GUI's
-LAN's
-LLB's
-LLD's
-MFA's
-OMB's
-PCP's
-PET's
-PRC's
-SOB's
-SSE's
-SSW's
-VFW's
-WNW's
-WSW's
-abs's
-alp's
-awn's
-bey's
-bio's
-biz's
-cay's
-chi's
-cos's
-cum's
-eta's
-fay's
-gar's
-hap's
-hon's
-lac's
-mot's
-obi's
-olé's
-phi's
-pix's
-psi's
-rad's
-rec's
-rem's
-rho's
-ska's
-sou's
-tau's
-veg's
-yin's
+eon's 35
+act's 10
+age's 10
+bar's 10
+bit's 10
+box's 10
+bug's 10
+day's 10
+doe's 10
+end's 10
+eye's 10
+fit's 10
+fly's 10
+fry's 10
+get's 10
+hit's 10
+job's 10
+key's 10
+law's 10
+leg's 10
+let's 10
+lie's 10
+log's 10
+lot's 10
+man's 10
+one's 10
+put's 10
+run's 10
+see's 10
+set's 10
+tie's 10
+try's 10
+use's 10
+way's 10
+won's 10
+aid's 20
+aim's 20
+arm's 20
+art's 20
+ash's 20
+bag's 20
+bed's 20
+bet's 20
+bob's 20
+boy's 20
+bus's 20
+buy's 20
+can's 20
+cap's 20
+car's 20
+cat's 20
+cow's 20
+cry's 20
+cup's 20
+cut's 20
+die's 20
+dog's 20
+don's 20
+dot's 20
+ear's 20
+egg's 20
+ego's 20
+fan's 20
+fee's 20
+fix's 20
+gap's 20
+god's 20
+gun's 20
+gut's 20
+guy's 20
+hat's 20
+jam's 20
+kid's 20
+kit's 20
+lab's 20
+lip's 20
+map's 20
+mug's 20
+net's 20
+nun's 20
+nut's 20
+pen's 20
+pig's 20
+pin's 20
+pop's 20
+pun's 20
+rat's 20
+row's 20
+sex's 20
+sin's 20
+son's 20
+spy's 20
+sum's 20
+tab's 20
+tax's 20
+ten's 20
+tin's 20
+tip's 20
+toe's 20
+ton's 20
+top's 20
+toy's 20
+van's 20
+war's 20
+win's 20
+CIA's 35
+CPA's 35
+DNA's 35
+FBI's 35
+GNP's 35
+GOP's 35
+IOU's 35
+IRS's 35
+LSD's 35
+SOS's 35
+TNT's 35
+UFO's 35
+VCR's 35
+VIP's 35
+ace's 35
+ado's 35
+air's 35
+ale's 35
+all's 35
+amp's 35
+ant's 35
+ape's 35
+arc's 35
+are's 35
+ark's 35
+ass's 35
+awe's 35
+aye's 35
+bad's 35
+ban's 35
+bat's 35
+bay's 35
+bee's 35
+bib's 35
+bid's 35
+bin's 35
+boa's 35
+bog's 35
+boo's 35
+bow's 35
+bra's 35
+bud's 35
+bum's 35
+bun's 35
+bye's 35
+cab's 35
+caw's 35
+cob's 35
+cod's 35
+cog's 35
+con's 35
+coo's 35
+cop's 35
+cot's 35
+cub's 35
+cue's 35
+dab's 35
+dad's 35
+dam's 35
+den's 35
+dew's 35
+dig's 35
+din's 35
+dip's 35
+dry's 35
+dub's 35
+dud's 35
+due's 35
+dye's 35
+ebb's 35
+eel's 35
+elf's 35
+elk's 35
+elm's 35
+era's 35
+eve's 35
+ewe's 35
+fad's 35
+fat's 35
+fed's 35
+fen's 35
+few's 35
+fez's 35
+fib's 35
+fig's 35
+fin's 35
+fir's 35
+flu's 35
+foe's 35
+fog's 35
+fox's 35
+fun's 35
+fur's 35
+gab's 35
+gag's 35
+gal's 35
+gas's 35
+gay's 35
+gem's 35
+gig's 35
+gin's 35
+gnu's 35
+gob's 35
+goo's 35
+gum's 35
+gym's 35
+hag's 35
+ham's 35
+hay's 35
+hem's 35
+hen's 35
+her's 35
+him's 35
+hip's 35
+hoe's 35
+hog's 35
+hop's 35
+how's 35
+hub's 35
+hue's 35
+hug's 35
+hum's 35
+hut's 35
+ice's 35
+ill's 35
+imp's 35
+ink's 35
+inn's 35
+ion's 35
+ire's 35
+ivy's 35
+jab's 35
+jar's 35
+jaw's 35
+jay's 35
+jet's 35
+jig's 35
+jog's 35
+jot's 35
+joy's 35
+jug's 35
+jut's 35
+keg's 35
+kin's 35
+lad's 35
+lag's 35
+lap's 35
+lay's 35
+lid's 35
+lob's 35
+low's 35
+lug's 35
+lye's 35
+mad's 35
+mat's 35
+may's 35
+mew's 35
+mix's 35
+mob's 35
+mom's 35
+moo's 35
+mop's 35
+mow's 35
+mud's 35
+mum's 35
+nag's 35
+nap's 35
+nay's 35
+new's 35
+nil's 35
+nip's 35
+nit's 35
+nod's 35
+now's 35
+oaf's 35
+oak's 35
+oar's 35
+ode's 35
+ohm's 35
+oil's 35
+old's 35
+ore's 35
+out's 35
+owl's 35
+pad's 35
+pal's 35
+pan's 35
+par's 35
+pat's 35
+paw's 35
+pay's 35
+pea's 35
+peg's 35
+pep's 35
+pet's 35
+pew's 35
+pie's 35
+pit's 35
+ply's 35
+pod's 35
+pot's 35
+pro's 35
+pry's 35
+pup's 35
+pus's 35
+rag's 35
+ram's 35
+rap's 35
+raw's 35
+ray's 35
+red's 35
+rev's 35
+rib's 35
+rig's 35
+rim's 35
+rip's 35
+rod's 35
+roe's 35
+rot's 35
+rub's 35
+rue's 35
+rug's 35
+rum's 35
+rut's 35
+rye's 35
+sac's 35
+sag's 35
+sap's 35
+saw's 35
+say's 35
+sea's 35
+she's 35
+shy's 35
+sip's 35
+sir's 35
+six's 35
+ski's 35
+sky's 35
+sob's 35
+sod's 35
+sop's 35
+sow's 35
+spa's 35
+sub's 35
+sun's 35
+tag's 35
+tan's 35
+tap's 35
+tar's 35
+tea's 35
+tee's 35
+tit's 35
+tot's 35
+tow's 35
+tub's 35
+tug's 35
+two's 35
+urn's 35
+vat's 35
+vet's 35
+vow's 35
+wad's 35
+wag's 35
+wax's 35
+web's 35
+wee's 35
+wet's 35
+why's 35
+wig's 35
+wit's 35
+woe's 35
+wok's 35
+wow's 35
+yak's 35
+yam's 35
+yap's 35
+yen's 35
+yes's 35
+yew's 35
+you's 35
+zip's 35
+zoo's 35
+ATM's 40
+CEO's 40
+ESP's 40
+HIV's 40
+HMO's 40
+IRA's 40
+PMS's 40
+POW's 40
+RAM's 40
+ROM's 40
+TLC's 40
+USA's 40
+WWW's 40
+baa's 40
+bop's 40
+dis's 40
+duo's 40
+fag's 40
+fax's 40
+gel's 40
+gyp's 40
+lib's 40
+max's 40
+oat's 40
+pee's 40
+pub's 40
+ref's 40
+rep's 40
+sax's 40
+sec's 40
+tad's 40
+tic's 40
+tog's 40
+tux's 40
+who's 40
+yep's 40
+zap's 40
+zit's 40
+ABM's 50
+ASL's 50
+ATP's 50
+AZT's 50
+BLT's 50
+CFC's 50
+CPI's 50
+CPR's 50
+CPU's 50
+CRT's 50
+CST's 50
+DAT's 50
+DDS's 50
+DOS's 50
+ECG's 50
+EEC's 50
+EEG's 50
+EKG's 50
+EPA's 50
+EST's 50
+FHA's 50
+GHQ's 50
+GMT's 50
+HUD's 50
+IMF's 50
+KKK's 50
+LCD's 50
+LED's 50
+LPN's 50
+MBA's 50
+MRI's 50
+MSG's 50
+MST's 50
+MVP's 50
+OAS's 50
+PAC's 50
+PBS's 50
+PST's 50
+PVC's 50
+RAF's 50
+REM's 50
+RNA's 50
+SAM's 50
+SOP's 50
+TKO's 50
+UHF's 50
+VAT's 50
+VHF's 50
+VLF's 50
+WHO's 50
+alb's 50
+asp's 50
+auk's 50
+awl's 50
+bur's 50
+cad's 50
+cam's 50
+cud's 50
+cur's 50
+deb's 50
+doc's 50
+dun's 50
+ell's 50
+emu's 50
+erg's 50
+fob's 50
+fop's 50
+haw's 50
+hex's 50
+hob's 50
+hod's 50
+ilk's 50
+ism's 50
+jag's 50
+jib's 50
+ken's 50
+lam's 50
+lea's 50
+lee's 50
+lei's 50
+lox's 50
+maw's 50
+mil's 50
+mod's 50
+nib's 50
+nix's 50
+nub's 50
+orb's 50
+pap's 50
+pip's 50
+poi's 50
+pol's 50
+pox's 50
+pug's 50
+pyx's 50
+sis's 50
+sol's 50
+sot's 50
+soy's 50
+sty's 50
+sup's 50
+tam's 50
+tom's 50
+tor's 50
+tun's 50
+ump's 50
+vim's 50
+wen's 50
+yaw's 50
+yea's 50
+yip's 50
+yuk's 50
+yup's 50
+zed's 50
+bod's 55
+bro's 55
+bub's 55
+kip's 55
+mac's 55
+mag's 55
+pic's 55
+tut's 55
+ADP's 60
+CAD's 60
+CBC's 60
+CNS's 60
+DMD's 60
+EDP's 60
+ELF's 60
+ENE's 60
+ESE's 60
+GDP's 60
+GUI's 60
+LAN's 60
+LLB's 60
+LLD's 60
+MFA's 60
+OMB's 60
+PCP's 60
+PET's 60
+PRC's 60
+SOB's 60
+SSE's 60
+SSW's 60
+VFW's 60
+WNW's 60
+WSW's 60
+abs's 60
+alp's 60
+awn's 60
+bey's 60
+bio's 60
+biz's 60
+cay's 60
+chi's 60
+cos's 60
+cum's 60
+eta's 60
+fay's 60
+gar's 60
+hap's 60
+hon's 60
+lac's 60
+mot's 60
+obi's 60
+olé's 60
+phi's 60
+pix's 60
+psi's 60
+rad's 60
+rec's 60
+rem's 60
+rho's 60
+ska's 60
+sou's 60
+tau's 60
+veg's 60
+yin's 60

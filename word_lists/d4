@@ -1,235 +1,235 @@
-mold
-dike
-odor
-deem
-deep
-desk
-died
-dies
-disk
-does
-done
-door
-down
-drew
-drop
-dump
-duty
-edge
-edit
-ends
-feed
-find
-food
-fund
-good
-held
-hide
-hold
-kind
-lend
-lied
-mind
-mode
-need
-odds
-owed
-ride
-rids
-send
-side
-sold
-tend
-tied
-told
-used
-wide
-wild
-wind
-word
-deed
-defy
-deny
-diet
-digs
-dine
-dire
-dirt
-dish
-dive
-dogs
-dole
-dons
-doom
-dose
-dots
-drip
-drug
-drum
-duff
-dull
-duly
-dust
-fold
-fond
-gods
-gold
-grid
-herd
-idle
-kids
-lord
-loud
-mend
-mild
-mood
-node
-rend
-rode
-rude
-seed
-shed
-slid
-sped
-sued
-tidy
-undo
-vend
-void
-weds
-wood
-deer
-deft
-deli
-dens
-dent
-dill
-dime
-dims
-dins
-dips
-dodo
-doer
-doll
-dome
-dope
-dote
-dour
-dove
-doze
-drys
-dude
-duds
-duel
-dues
-duet
-duke
-dune
-dung
-dunk
-dupe
-dusk
-dyed
-dyes
-eddy
-edgy
-eked
-eyed
-feds
-fend
-feud
-fled
-ford
-geed
-geld
-gild
-heed
-hind
-hoed
-hood
-hued
-idly
-idol
-judo
-lewd
-lids
-nods
-nude
-odes
-plod
-pods
-pond
-prod
-redo
-reds
-reed
-rind
-rods
-rued
-shod
-skid
-sled
-sods
-spud
-stud
-suds
-teed
-thud
-tide
-toed
-trod
-vied
-weed
-weld
-demo
-dork
-dorm
-duos
-dyke
-meld
-nerd
-peed
-turd
-dell
-dewy
-ding
-dint
-dirk
-doff
-dolt
-dory
-doth
-duns
-dyer
-gird
-hied
-hods
-ides
-lode
-mods
-pied
-quid
-rood
-veld
-wend
-zeds
-derv
-dhow
-dosh
-doss
-dost
-dozy
-idem
-lido
-ludo
-puds
-teds
-wold
-yids
-dido
-ditz
-doge
-dong
-meed
-midi
-oped
+mold 20
+dike 35
+odor 35
+deem 10
+deep 10
+desk 10
+died 10
+dies 10
+disk 10
+does 10
+done 10
+door 10
+down 10
+drew 10
+drop 10
+dump 10
+duty 10
+edge 10
+edit 10
+ends 10
+feed 10
+find 10
+food 10
+fund 10
+good 10
+held 10
+hide 10
+hold 10
+kind 10
+lend 10
+lied 10
+mind 10
+mode 10
+need 10
+odds 10
+owed 10
+ride 10
+rids 10
+send 10
+side 10
+sold 10
+tend 10
+tied 10
+told 10
+used 10
+wide 10
+wild 10
+wind 10
+word 10
+deed 20
+defy 20
+deny 20
+diet 20
+digs 20
+dine 20
+dire 20
+dirt 20
+dish 20
+dive 20
+dogs 20
+dole 20
+dons 20
+doom 20
+dose 20
+dots 20
+drip 20
+drug 20
+drum 20
+duff 20
+dull 20
+duly 20
+dust 20
+fold 20
+fond 20
+gods 20
+gold 20
+grid 20
+herd 20
+idle 20
+kids 20
+lord 20
+loud 20
+mend 20
+mild 20
+mood 20
+node 20
+rend 20
+rode 20
+rude 20
+seed 20
+shed 20
+slid 20
+sped 20
+sued 20
+tidy 20
+undo 20
+vend 20
+void 20
+weds 20
+wood 20
+deer 35
+deft 35
+deli 35
+dens 35
+dent 35
+dill 35
+dime 35
+dims 35
+dins 35
+dips 35
+dodo 35
+doer 35
+doll 35
+dome 35
+dope 35
+dote 35
+dour 35
+dove 35
+doze 35
+drys 35
+dude 35
+duds 35
+duel 35
+dues 35
+duet 35
+duke 35
+dune 35
+dung 35
+dunk 35
+dupe 35
+dusk 35
+dyed 35
+dyes 35
+eddy 35
+edgy 35
+eked 35
+eyed 35
+feds 35
+fend 35
+feud 35
+fled 35
+ford 35
+geed 35
+geld 35
+gild 35
+heed 35
+hind 35
+hoed 35
+hood 35
+hued 35
+idly 35
+idol 35
+judo 35
+lewd 35
+lids 35
+nods 35
+nude 35
+odes 35
+plod 35
+pods 35
+pond 35
+prod 35
+redo 35
+reds 35
+reed 35
+rind 35
+rods 35
+rued 35
+shod 35
+skid 35
+sled 35
+sods 35
+spud 35
+stud 35
+suds 35
+teed 35
+thud 35
+tide 35
+toed 35
+trod 35
+vied 35
+weed 35
+weld 35
+demo 40
+dork 40
+dorm 40
+duos 40
+dyke 40
+meld 40
+nerd 40
+peed 40
+turd 40
+dell 50
+dewy 50
+ding 50
+dint 50
+dirk 50
+doff 50
+dolt 50
+dory 50
+doth 50
+duns 50
+dyer 50
+gird 50
+hied 50
+hods 50
+ides 50
+lode 50
+mods 50
+pied 50
+quid 50
+rood 50
+veld 50
+wend 50
+zeds 50
+derv 55
+dhow 55
+dosh 55
+doss 55
+dost 55
+dozy 55
+idem 55
+lido 55
+ludo 55
+puds 55
+teds 55
+wold 55
+yids 55
+dido 60
+ditz 60
+doge 60
+dong 60
+meed 60
+midi 60
+oped 60
