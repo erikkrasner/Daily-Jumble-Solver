@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from itertools import permutations, combinations
 import sys
+import os
 
 def key(letters):
         return tuple(sorted(letters))
@@ -16,8 +17,16 @@ def load_dictionary(file_name):
                 else:
                         word_dict[k] = [word]
 
+def dict_file_name(first_letter,length):
+        return "word_lists/%s%d" % (first_letter,length)
+
+loaded = set()
+directory = set(os.listdir('word_lists'))
 def unjumble(jumbled_word):
         k = key(jumbled_word)
+        if (k[0],len(k)) not in loaded and k[0] + `len(k)` in directory:
+                load_dictionary(dict_file_name(k[0],len(k)))
+                loaded.add((k[0],len(k)))
         return word_dict[k] if k in word_dict else []
 
 def jumble_solve(jumble_list, word_lengths):
@@ -75,7 +84,6 @@ When you're done, just press enter."""
 	print """Now enter the final answer, writing the length of each unknown word.
 For example: 3 an 8"""
 	inp = raw_input()
-        load_dictionary(sys.argv[1] if sys.argv[1:] else '/usr/share/dict/words')
 	word_lengths = ()
 	main_puzzle_words = inp.split()
 	for word in main_puzzle_words:
