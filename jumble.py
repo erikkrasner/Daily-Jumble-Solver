@@ -76,7 +76,7 @@ def jumble_solve(jumble_list, word_lengths):
                                 yield solution, word_list
                                 word_lists.add((solution,word_list))
                                 
-def minus_total_rarity(jumble_solution):
+def total_rarity(jumble_solution):
         scrambles,main_puzzle_solution = jumble_solution
         return sum([word.rarity for word in scrambles + main_puzzle_solution])
 
@@ -99,7 +99,7 @@ For example: 3 an 8"""
 	for word in main_puzzle_words:
 		if word.isdigit():
 			word_lengths += (int(word),)
-        jumble_solutions = sorted([solution for solution in jumble_solve(jumble_list,word_lengths)], key = minus_total_rarity)
+        jumble_solutions = sorted([solution for solution in jumble_solve(jumble_list,word_lengths)], key = total_rarity)
 	for scrambles, main_puzzle_solution in jumble_solutions:
                 for index, unscramble in enumerate(scrambles):
                         print ("%d. %s" % (index + 1, unscramble)),
