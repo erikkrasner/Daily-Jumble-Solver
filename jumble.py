@@ -3,6 +3,11 @@ from itertools import permutations, combinations
 import sys
 import os
 
+class Word(str):
+        def withrarity(self,rarity):
+                self.rarity = rarity
+                return self
+
 def key(letters):
         return tuple(sorted(letters))
 
@@ -10,7 +15,8 @@ word_dict = {}
 def load_dictionary(file_name):
         word_file = open(file_name,'r')
         for line in word_file:
-                word = line[:-1]
+                word, rarity = line.split()
+                word = Word(word).withrarity(int(rarity))
                 k = key(word)
                 if k in word_dict:
                         word_dict[k].append(word)
@@ -53,7 +59,7 @@ def jumble_solve(jumble_list, word_lengths):
 			for letters in combinations(letter_set,word_lengths[0]):
 				word_lists = make_words(tuple_difference(letter_set,letters),word_lengths[1:])
 				for word_list in word_lists:
-					for word in unjumble(letter_set):
+					for word in unjumble(letters):
 						solution = (word,) + word_list
 						word_set.add(solution)
 			make_words_memo[letter_set,word_lengths] = word_set
@@ -69,6 +75,10 @@ def jumble_solve(jumble_list, word_lengths):
                         if (solution, word_list) not in word_lists:
                                 yield solution, word_list
                                 word_lists.add((solution,word_list))
+                                
+def minus_total_rarity(jumble_solution):
+        scrambles,main_puzzle_solution = jumble_solution
+        return sum([word.rarity for word in scrambles + main_puzzle_solution])
 
 def input_loop():
 	print """For every clue enter in the scrambled word, followed by a space, followed by the positions of the
@@ -89,7 +99,8 @@ For example: 3 an 8"""
 	for word in main_puzzle_words:
 		if word.isdigit():
 			word_lengths += (int(word),)
-	for scrambles, main_puzzle_solution in jumble_solve(jumble_list,word_lengths):
+        jumble_solutions = sorted([solution for solution in jumble_solve(jumble_list,word_lengths)], key = minus_total_rarity)
+	for scrambles, main_puzzle_solution in jumble_solutions:
                 for index, unscramble in enumerate(scrambles):
                         print ("%d. %s" % (index + 1, unscramble)),
                 print
