@@ -3,14 +3,17 @@
 </head>
 <body>
 	<h1>Jumble solver!</h1>
-	<div id="inputs">
-		<h2>Jumbles</h2>
-	</div>
-	<button id="addword">Add Word</button>
-	<div id="final_puzzle">
-		<h2>Final puzzle</h2>
-		<input type="text" ></input>
-	</div>
+	<form>
+		<div id="inputs">
+			<h2>Jumbles</h2>
+		</div>
+		<button id="addword">Add Word</button>
+		<div id="final_puzzle">
+			<h2>Final puzzle</h2>
+			<input type="text" ></input>
+		</div>
+		<input type="submit" value="Solve"></input>
+	</form>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
 <script type="text/javascript">
@@ -55,6 +58,32 @@ function syncCheckBoxes() {
 	});
 }
 $('.jumbletext').bind('keydown keypress',syncCheckBoxes)
+
+function unknownWords(jumblePuzzleString) {
+	return jumblePuzzleString.match(/\d+|\*+/g);
+}
+function wordLengths(jumblePuzzleString) {
+	var sum = 0;
+	var words = unknownWords(jumblePuzzleString);
+	for (var i=0; i < words.length; i+=1) {
+		unknownWord = words[i];
+		if (unknownWord.match(/\d+/)) {
+			sum += parseInt(unknownWord);
+		} else {
+			sum += unknownWord.length;
+		}
+	}
+	return sum;
+}
+function validateInput() {
+	var numChecked = $('input:checked').length;
+	var totalLengths = wordLengths($('#final_puzzle input').val());
+	if (numChecked != totalLengths) {
+		alert('Number of letters taken from jumbles does not match number of letters in solution.');
+		$(this).preventDefault();
+	}
+}
+$('form').submit(validateInput);
 
 </script>
 </body>
