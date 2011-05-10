@@ -1,0 +1,61 @@
+<head>
+	<title>Daily Jumble solver</title>
+</head>
+<body>
+	<h1>Jumble solver!</h1>
+	<div id="inputs">
+		<h2>Jumbles</h2>
+	</div>
+	<button id="addword">Add Word</button>
+	<div id="final_puzzle">
+		<h2>Final puzzle</h2>
+		<input type="text" ></input>
+	</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+<script type="text/javascript">
+for (i = 1; i <= 4; i+=1) {
+	makeNewJumbleInput();
+}
+
+function makeNewJumbleInput() {
+	nextID = $('#inputs').children().length;
+	$('#inputs').append($(
+		'<div>' +
+		'<input type="text" class="jumbletext" name="jumble' + nextID + '" class="jumbletext"></input>' +
+		'<div class="jumbleboxes"></div>' +
+		'<button class="removebutton">x</button>' +
+		'</div>'
+		));
+}
+$('#addword').click(makeNewJumbleInput);
+
+function removeThisInput() {
+	$(this).parent().remove();
+}
+$('.removebutton').click(removeThisInput);
+
+function syncCheckBoxes() {
+	function newCheckBox(jumblenum,boxnum) {
+		return $('<input type="checkbox" name="jumblebox' + jumblenum + "_" + boxnum + '"></input>')
+	}
+	var self = this;
+	var jumblenum = $(this).attr('name').match(/\d+$/);
+	setTimeout(function() {
+		var numCheckBoxes = $(self).siblings('.jumbleboxes').children().length;
+		var text = $(self).val();
+		while(text.length > numCheckBoxes) {
+			$(self).siblings('.jumbleboxes').append(newCheckBox(jumblenum,numCheckBoxes + 1));
+			numCheckBoxes += 1
+		}
+		while (text.length < numCheckBoxes) {
+			$(self).siblings('.jumbleboxes').children(':last-child').remove()
+			numCheckBoxes -= 1
+		}
+	});
+}
+$('.jumbletext').bind('keydown keypress',syncCheckBoxes)
+
+</script>
+</body>
+</html>
