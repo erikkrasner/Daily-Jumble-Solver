@@ -3,17 +3,18 @@
 </head>
 <body>
 	<h1>Jumble solver!</h1>
-	<form>
-		<div id="inputs">
-			<h2>Jumbles</h2>
-		</div>
-		<button id="addword">Add Word</button>
-		<div id="final_puzzle">
-			<h2>Final puzzle</h2>
-			<input type="text" ></input>
-		</div>
-		<input type="submit" value="Solve"></input>
-	</form>
+	<div id="inputs">
+		<h2>Jumbles</h2>
+	</div>
+	<button id="addword">Add Word</button>
+	<div id="final_puzzle">
+		<h2>Final puzzle</h2>
+		<input type="text" ></input>
+	</div>
+	<button id="solvebutton">Solve</button>
+	<div id="solutions">
+		<h2>Solutions</h2>
+	</div>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
 <script type="text/javascript">
@@ -30,17 +31,17 @@ function makeNewJumbleInput() {
 		'<button class="removebutton">x</button>' +
 		'</div>'
 		));
+	bindInputs();
 }
 $('#addword').click(makeNewJumbleInput);
 
 function removeThisInput() {
 	$(this).parent().remove();
 }
-$('.removebutton').click(removeThisInput);
 
 function syncCheckBoxes() {
 	function newCheckBox(jumblenum,boxnum) {
-		return $('<input type="checkbox" name="jumblebox' + jumblenum + "_" + boxnum + '"></input>')
+		return $('<input type="checkbox"></input>').val('' +boxnum);
 	}
 	var self = this;
 	var jumblenum = $(this).attr('name').match(/\d+$/);
@@ -57,7 +58,27 @@ function syncCheckBoxes() {
 		}
 	});
 }
-$('.jumbletext').bind('keydown keypress',syncCheckBoxes)
+
+function bindInputs() {
+	$('.jumbletext').bind('keydown keypress change',syncCheckBoxes);
+	$('.removebutton').click(removeThisInput);
+}
+
+function solveJumble() {
+	$(':text').attr('readonly','readonly');
+	$.get('/solve', dataFromInputs(), writeSolutions);
+}
+function dataFromInputs() {
+	return $('.jumbletext').map(
+		function() {
+			return $(this).siblings('.jumbleboxes').children(':checked').map(
+				function(){ return $(this).val() })
+		})
+}
+function writeSolutions() {
+	$(':text').removeAttr('readonly');
+}
+$('#solvebutton').click(solveJumble);
 
 function unknownWords(jumblePuzzleString) {
 	return jumblePuzzleString.match(/\d+|\*+/g);
